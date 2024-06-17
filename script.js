@@ -69,6 +69,9 @@ function changeDataSource() {
     } else if (dataSource === 'renaissance') {
         image_folder = 'renaissance';
         image_data = renaissance_data;
+    } else if (dataSource === 'band_poster') {
+        image_folder = 'band_posters';
+        image_data = band_poster_data;
     }
     loadImages(currentIndex);
 }
