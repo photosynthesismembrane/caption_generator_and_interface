@@ -72,6 +72,12 @@ function changeDataSource() {
     } else if (dataSource === 'band_poster') {
         image_folder = 'band_posters';
         image_data = band_poster_data;
+    } else if (dataSource === 'landscape') {
+        image_folder = 'landscape';
+        image_data = landscape_data;
+    } else if (dataSource === 'wikiart_selection') {
+        image_folder = 'wikiart_selection';
+        image_data = wikiart_selection_data;
     }
     loadImages(currentIndex);
 }
