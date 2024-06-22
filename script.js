@@ -78,6 +78,9 @@ function changeDataSource() {
     } else if (dataSource === 'wikiart_selection') {
         image_folder = 'wikiart_selection';
         image_data = wikiart_selection_data;
+    } else if (dataSource === 'graffiti') {
+        image_folder = 'graffiti';
+        image_data = grafitti_data;
     }
     loadImages(currentIndex);
 }
